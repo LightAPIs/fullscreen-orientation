@@ -1,0 +1,43 @@
+{
+  "name": "fullscreen-orientation",
+  "type": "module",
+  "private": false,
+  "version": "0.1.0",
+  "description": "Set fullscreen orientation",
+  "author": "Light",
+  "license": "MIT",
+  "homepage": "https://github.com/LightAPIs/fullscreen-orientation",
+  "repository": "LightAPIs/fullscreen-orientation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "postbuild": "tsx ./build.ts",
+    "test": "mocha"
+  },
+  "keywords": [
+    "fullscreen",
+    "orientation",
+    "mobile",
+    "fullscreen-orientation",
+    "video"
+  ],
+  "publishConfig": {
+    "directory": "publish"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.7",
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^20.8.4",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "chai": "^4.3.10",
+    "eslint": "^8.51.0",
+    "mocha": "^10.2.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "tsx": "^3.13.0",
+    "typescript": "5.1.6",
+    "vite": "^4.4.11",
+    "vite-plugin-dts": "^3.6.0"
+  }
+}
