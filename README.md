@@ -17,7 +17,7 @@ const video = document.createElement('video');
 // orientation handler
 const remove = fullscreen(video, 'landscape')
 
-// no longer user, emove handler
+// no longer use, remove handler
 remove();
 ```
 
