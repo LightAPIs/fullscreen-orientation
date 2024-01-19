@@ -2,7 +2,7 @@
   "name": "fullscreen-orientation",
   "type": "module",
   "private": false,
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Set fullscreen orientation",
   "author": "Light",
   "license": "MIT",
